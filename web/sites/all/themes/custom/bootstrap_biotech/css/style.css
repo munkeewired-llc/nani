@@ -1,0 +1,9 @@
+*\@import <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+body {background:#FFF;color:#000000;font-family: 'Droid Sans', sans-serif;font-size:1.75em; line-height:175%;}
+a {color:#333;}
+a:hover {color:#b11e22;}
+h1 {float: left; clear:none; width: 100%; color:#fff; background:#333; padding: 10px 10px 10px 10px; border: 1px solid #ccc;  border-radius: 5px;}
+.nav-center img { padding: 10px 10px 10px 10px;}
+.headertext {font-family:Lora,Georgia,serif;font-size:2.25em;color:#b11e22; margin-left:120px;}
+.person_content {clear:left; padding-left: 10px;}

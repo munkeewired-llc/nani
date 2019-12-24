@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body {background:#000;color:#e0eeee;font-family: 'Droid Sans', sans-serif;font-size:1.75em; line-height:175%;}
+img {max-width: 90%; height: auto;}
+a {color:#cd0000;}
+h1 {color:#cd0000;}
+h2 {color:#cd0000;}
+h3 {color:#cd0000;}
+#navbar {background:#bababa;border: 1px solid #838b8b;font-size:1.25em;}
+#navbar a {color:#cd0000;}
+.region-sidebar-first {background:#bababa;border: 1px solid #838b8b;}
+#navbar .active  {color:#c1cdcd;background:#fff;}
+#block-menu-menu-about  .active  {color:#c1cdcd;background:#fff;}
+#navbar .active a {color:#333;}
+#block-menu-menu-about  .active a {color:#333;}
+.navbar-brand {font-size:1.5em;}
+#block-search-form {padding-top:20px;padding-bottom:20px;}
+#footer {border-top: 7px solid ##cd0000;padding:20px;}

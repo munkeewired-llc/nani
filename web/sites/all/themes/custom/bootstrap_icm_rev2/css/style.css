@@ -1,0 +1,94 @@
+body {background:#FFF;color:#000000;font-family: 'Montserrat';font-size:1.75em; line-height:175%;}
+img {max-width: 90%; height: auto;}
+
+a {color:#cc3333;}
+a:hover {color:#222;}
+
+h1 {color:#000; font-weight:800; padding: 10px 0px 10px 0px; }
+h2 {color:#000; font-weight:800; font-size: 1.5em; padding: 10px 0px 10px 0px;clear:left;}
+h2 a {color:#000;font-weight:800; padding: 10px 0px 10px 0px;clear:left; }
+h3 {color:#000; font-weight:800; padding: 10px 0px 10px 0px;}
+h3 a {color:#000; font-weight:800; padding: 10px 0px 10px 0px;}
+
+.page-header {margin-top:0px;}
+.graybar {display:flex; justify-content: space-between; align-items: center; height:84px;}
+#navbar {background:#fff; border: 0; font-size:1.25em; }
+#navbar li a {color:#000;}
+#navbar li a {background:#fff;font-weight:800;color:#cc3333;}
+#navbar li a:hover {background:#ccc;}
+#navbar .active  {color:#fff;background:#999999;}
+.navbar .navbar-nav {display: inline-block;float: none;}
+.navbar .navbar-collapse {text-align: center;}
+.nav-center {margin:0;float:none;}
+.navbar-inner{text-align:center;}
+#navbar button  {background:#999999;}
+#navbar img  {max-width:600px;margin:4rem;}
+
+.node-event .field-type-image,
+.node-video .field-type-image,
+.node-article .field-type-image {float:left;padding-right:15px;}
+.node-modal-page .field-type-image img {width: 40%; height: auto; z-index: -1; float:right; padding-left:15px;}
+.node-modal-page .field-name-field-description {width: 55%; float:left; margin-bottom:25px; }
+
+.view-id-frontpage .views-row img {float:left; margin-right:10px; max-width:175px; border: 1px solid #000;margin-bottom:20px;}
+.front .block {padding: 0px 10px 10px 10px;}
+.pagination li a {color:#cc3333;}
+.text-center > ul > li.active > span {background:#999999;border-color:#ccc;}
+.region-sidebar-first {background:#ffffff;}
+
+#block-views-calendar-block-2 img,
+#block-views-calendar-block-3 img {float:left;margin-right:15px;border: 1px solid #000;}
+#block-views-calendar-block-2 hr,
+#block-views-calendar-block-3 hr {clear:both;}
+#block-views-calendar-block-2 .date-display-single,
+#block-views-calendar-block-3 .date-display-single {font-weight: bold;}
+#block-block-11,
+#block-block-6 {padding-top:50px;}
+#block-system-main {background:none;border:none;margin-top:0px;}
+.node-readmore {float:right;}
+
+#footer {border-top: 7px solid #cd0000;padding:20px;}
+
+ 
+/****************************************
+ * Cornell Identity
+ ****************************************/
+
+#cu-identity {height: 73px;	background: #999999;}
+#cu-logo {flex:0 1 70%;}
+#cu-logo a {
+	border: none;
+	display: block;
+	width: 240px;
+	height: 73px;
+	background: url(../images/cornell_logo_simple_white.svg) no-repeat top left;
+	}
+#cu-logo img {display: none;}
+#search-form { flex:0 1 70%; text-align: right; }
+#search-form a {color: #fff;font-size: 0.75em;}
+	
+	
+@media only screen and (max-width: 770px) {
+
+#navbar img  {max-width:400px;margin:0rem;}
+.view-id-frontpage .views-row {width:99%;height:auto;}
+.graybar {height:59px;}
+
+#cu-identity {
+	height: 55px;
+	}
+
+#cu-logo a {
+	border: none;
+	display: block;
+	width: 240px;
+	height: 45px;
+	background: url(../images/cornell-reduced-white.svg) no-repeat top left;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+ #navbar img  {max-width:325px;margin:0rem;}
+	
+}
