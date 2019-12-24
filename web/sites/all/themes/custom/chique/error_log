@@ -1,0 +1,7 @@
+[27-Jan-2016 05:17:34 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[06-Feb-2016 15:23:23 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[14-Feb-2016 03:05:47 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[27-Feb-2016 04:46:41 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[27-Feb-2016 08:15:51 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[01-Mar-2016 08:47:04 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
+[03-Mar-2016 05:08:39 America/Chicago] PHP Fatal error:  Call to undefined function theme_get_setting() in /home/munkee/public_html/drupal-7/sites/all/themes/chique/template.php on line 110
