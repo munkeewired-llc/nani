@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "178fd9034e5c18de8f2f9af5e1e765e9",
+    "content-hash": "24f3b76cfb96f72b1370c31c6abd55d4",
     "packages": [
         {
             "name": "composer/installers",
@@ -931,6 +931,53 @@
                 "docs": "https://drupal-bootstrap.org",
                 "issues": "https://www.drupal.org/project/issues/bootstrap",
                 "irc": "irc://irc.freenode.org/drupal-bootstrap"
+            }
+        },
+        {
+            "name": "drupal/bootstrap_agency",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_agency.git",
+                "reference": "7.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_agency-7.x-1.1.zip",
+                "reference": "7.x-1.1",
+                "shasum": "fe3a2acffa3fce12e75c20daadcc3c2585d24906"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.1",
+                    "datestamp": "1524820080",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jcnventura",
+                    "homepage": "https://www.drupal.org/user/122464"
+                }
+            ],
+            "description": "This one page Drupal theme is based on Start Bootstrap Agency Template. http://ironsummitmedia.github.io/startbootstrap-agency/",
+            "homepage": "https://www.drupal.org/project/bootstrap_agency",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_agency"
             }
         },
         {

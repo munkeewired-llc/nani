@@ -33,6 +33,7 @@
         "drupal/auto_nodetitle": "^1.0",
         "drupal/backup_migrate": "^3.6",
         "drupal/bootstrap": "^3.26",
+        "drupal/bootstrap_agency": "^1.1",
         "drupal/brilliant_gallery": "^1.11",
         "drupal/business_responsive_theme": "^2.3",
         "drupal/calendar": "^3.5",
