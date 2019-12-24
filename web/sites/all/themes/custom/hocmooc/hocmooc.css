@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+body {background-color: #EFEFEF;font-family: 'Noto Serif', serif;}
+a {color:#066287;}
+h2,
+h1 {font-size: 1.75em; font-family: 'Noto Serif', serif;}
+
+#block-search-form { float:left; padding: 0 0 0 0;}
+.navbar-inner {background:#066287;}
+.blackstripe {width:100%;padding:0;background:#066287;}
+#site-name {margin-top:7px;margin-right:7px;background:#066287;}
+#site-name  a {color:#efefef;}
+.main-container h1 {width:98%; background:#f4f4f4; height:100%; min-height:35px;margin-top:10px;padding-left:7px;padding-right:7px;padding-bottom:5px;color:#066287;font-weight:500;font-size:1.5em;clear:both;margin-top:95px\9;}
+.nav-tabs {margin-top:75px\9;}
+.herostripe {border-top:hidden;width:100%;margin-top:20px;padding-top:20;margin-bottom:-20px;background:#f4f4f4;}
+.greystripe {border-top:hidden;width:100%;margin-top:20px;padding-top:20px;background:#f4f4f4;}
+.medgreystripe {border-top:hidden;width:100%;margin-top:0px;padding-top:20px;background:#ccc;}
+.site-footer {color:#f4f4f4;border-top:#066287 5px solid;background: #666;width:100%;}
+.site-footer a {color:#7eb8b8;}
+.region-footer-first,
+.region-footer-second,
+.region-footer-third {float:left;width:30%;width:275px\9;padding-left:10px;padding-right:10px;}
+.region-sidebar-second {margin-top:95px\9;}
+/*********** frontpage  ****/
+.view-frontpage .views-row {float:left;width:47%;padding-left:10px;padding-right:10px;padding-bottom:10px;}
+.view-frontpage .views-row-odd {clear:left;}
+.view-frontpage .views-row-even {}
+.view-frontpage .views-row  h2 {clear:both;margin-top:10px;padding-bottom:5px;line-height:1.2;}
+.views-table caption {color:#016b6b;font-weight:400;font-size:1.3em;border:solid #CCC 1px; width:100%; background:#f4f4f4;padding-top:5px;padding-bottom:5px;}
+/*********** nodes  ****/
+.node-page hr {clear:both;}
+.node-page .field-type-image {padding-bottom:15px; clear:both;}
+.node-article .field-type-image {float:left;padding-right:10px;padding-bottom:10px; clear:both;}
+.node-page .field-name-field-image-level-2 {float:right;padding-left:10px;padding-bottom:10px;}
+
+
+@media only screen and (max-width: 770px) {
+.navbar-inner {max-height:50px;}
+#site-name {margin-top:-35px;}
+.view-frontpage .views-row,
+.region-leftcol,
+.region-rightcol,
+.region-sidebar-second,
+.region-footer-first,
+.region-footer-second,
+.region-footer-third {clear:left;width:98%;margin-bottom:15px;margin-left:0px;margin-right:0px;}
+}
+
+@media only screen and (max-width: 381px) {
+body {font-size:.85em;}
+h2 {font-size: 1.15em;line-height:1;}
+h3 {font-size: 1.1em;}
+}
