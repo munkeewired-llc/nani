@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e742828b32241c031f7baacab4455bcb",
+    "content-hash": "0c6f5485f1c3da3547f00d3012e59967",
     "packages": [
         {
             "name": "composer/installers",
@@ -701,6 +701,178 @@
             }
         },
         {
+            "name": "drupal/always_visible",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/always_visible.git",
+                "reference": "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.x-dev",
+                    "datestamp": "1385258005",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pedja Grujić",
+                    "homepage": "https://www.drupal.org/user/1321760"
+                },
+                {
+                    "name": "mrfelton",
+                    "homepage": "https://www.drupal.org/user/305669"
+                },
+                {
+                    "name": "mthomas",
+                    "homepage": "https://www.drupal.org/user/492448"
+                }
+            ],
+            "description": "Allows administrators to override menu item visibility.",
+            "homepage": "https://www.drupal.org/project/always_visible",
+            "support": {
+                "source": "https://git.drupalcode.org/project/always_visible"
+            },
+            "time": "2013-11-24T01:49:17+00:00"
+        },
+        {
+            "name": "drupal/auto_nodetitle",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/auto_nodetitle.git",
+                "reference": "7.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/auto_nodetitle-7.x-1.0.zip",
+                "reference": "7.x-1.0",
+                "shasum": "ebba3b293c2cf076bb364aab8a28dc14ef5815b8"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.0",
+                    "datestamp": "1307449916",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "blesss",
+                    "homepage": "https://www.drupal.org/user/2619261"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "gaurav.kapoor",
+                    "homepage": "https://www.drupal.org/user/3495331"
+                },
+                {
+                    "name": "jenlampton",
+                    "homepage": "https://www.drupal.org/user/85586"
+                }
+            ],
+            "description": "Allows hiding of the content title field and automatic title creation.",
+            "homepage": "https://www.drupal.org/project/auto_nodetitle",
+            "support": {
+                "source": "https://git.drupalcode.org/project/auto_nodetitle"
+            }
+        },
+        {
+            "name": "drupal/backup_migrate",
+            "version": "3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/backup_migrate.git",
+                "reference": "7.x-3.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_migrate-7.x-3.6.zip",
+                "reference": "7.x-3.6",
+                "shasum": "bd9f09b611ce05376d36fc24d34d9e915d8b11e6"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-3.6",
+                    "datestamp": "1548003575",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Andrascu",
+                    "homepage": "https://www.drupal.org/user/429248"
+                },
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "dgorton",
+                    "homepage": "https://www.drupal.org/user/19044"
+                },
+                {
+                    "name": "ikit-claw",
+                    "homepage": "https://www.drupal.org/user/3285813"
+                },
+                {
+                    "name": "ronan",
+                    "homepage": "https://www.drupal.org/user/72815"
+                }
+            ],
+            "description": "Backup the Drupal database and files or migrate them to another environment.",
+            "homepage": "https://www.drupal.org/project/backup_migrate",
+            "support": {
+                "source": "https://git.drupalcode.org/project/backup_migrate"
+            }
+        },
+        {
             "name": "drupal/bootstrap",
             "version": "3.26.0",
             "source": {
@@ -762,6 +934,53 @@
             }
         },
         {
+            "name": "drupal/brilliant_gallery",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/brilliant_gallery.git",
+                "reference": "7.x-1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/brilliant_gallery-7.x-1.11.zip",
+                "reference": "7.x-1.11",
+                "shasum": "bd14232d1d4b85ce3b62c21b44c169d009cf62c8"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.11",
+                    "datestamp": "1569597186",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vacilando",
+                    "homepage": "https://www.drupal.org/user/45996"
+                }
+            ],
+            "description": "Highly customizable Drupal module producing multiple table galleries of quality-scaled images from either a pre-defined local folder, or from any Picasa gallery.",
+            "homepage": "https://www.drupal.org/project/brilliant_gallery",
+            "support": {
+                "source": "https://git.drupalcode.org/project/brilliant_gallery"
+            }
+        },
+        {
             "name": "drupal/business_responsive_theme",
             "version": "2.3.0",
             "source": {
@@ -806,6 +1025,72 @@
             "homepage": "https://www.drupal.org/project/business_responsive_theme",
             "support": {
                 "source": "https://git.drupalcode.org/project/business_responsive_theme"
+            }
+        },
+        {
+            "name": "drupal/calendar",
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/calendar.git",
+                "reference": "7.x-3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/calendar-7.x-3.5.zip",
+                "reference": "7.x-3.5",
+                "shasum": "1d78d9e21b1441a93ac8ba105143841b8207db5b"
+            },
+            "require": {
+                "drupal/date_api": "*",
+                "drupal/date_views": "*",
+                "drupal/drupal": "~7.0",
+                "drupal/views": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-3.5",
+                    "datestamp": "1413299929",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "KarenS",
+                    "homepage": "https://www.drupal.org/user/45874"
+                },
+                {
+                    "name": "fizk",
+                    "homepage": "https://www.drupal.org/user/473174"
+                },
+                {
+                    "name": "geertvd",
+                    "homepage": "https://www.drupal.org/user/536694"
+                },
+                {
+                    "name": "pjonckiere",
+                    "homepage": "https://www.drupal.org/user/2442998"
+                },
+                {
+                    "name": "tedbow",
+                    "homepage": "https://www.drupal.org/user/240860"
+                }
+            ],
+            "description": "Views plugin to display views containing dates as Calendars.",
+            "homepage": "https://www.drupal.org/project/calendar",
+            "support": {
+                "source": "https://git.drupalcode.org/project/calendar"
             }
         },
         {
@@ -951,6 +1236,259 @@
             "homepage": "https://www.drupal.org/project/ctools",
             "support": {
                 "source": "https://git.drupalcode.org/project/ctools"
+            }
+        },
+        {
+            "name": "drupal/date",
+            "version": "2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/date.git",
+                "reference": "7.x-2.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/date-7.x-2.10.zip",
+                "reference": "7.x-2.10",
+                "shasum": "f3d11ae63d841420f47ea9568139daa1f684e24e"
+            },
+            "require": {
+                "drupal/date_api": "*",
+                "drupal/drupal": "~7.0"
+            },
+            "require-dev": {
+                "drupal/context": "*",
+                "drupal/date_api": "*",
+                "drupal/date_repeat": "*",
+                "drupal/date_repeat_field": "*",
+                "drupal/features": "*",
+                "drupal/migrate": "*",
+                "drupal/views": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-2.10",
+                    "datestamp": "1491562115",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "David Goode",
+                    "homepage": "https://www.drupal.org/user/291318"
+                },
+                {
+                    "name": "KarenS",
+                    "homepage": "https://www.drupal.org/user/45874"
+                },
+                {
+                    "name": "arlinsandbulte",
+                    "homepage": "https://www.drupal.org/user/242659"
+                },
+                {
+                    "name": "developer-x",
+                    "homepage": "https://www.drupal.org/user/399625"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "gisle",
+                    "homepage": "https://www.drupal.org/user/409554"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "sanchiz",
+                    "homepage": "https://www.drupal.org/user/1671246"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                },
+                {
+                    "name": "webchick",
+                    "homepage": "https://www.drupal.org/user/24967"
+                }
+            ],
+            "description": "Makes date/time fields available.",
+            "homepage": "https://www.drupal.org/project/date",
+            "support": {
+                "source": "https://git.drupalcode.org/project/date"
+            }
+        },
+        {
+            "name": "drupal/date_api",
+            "version": "2.10.0",
+            "require": {
+                "drupal/date": "self.version",
+                "drupal/drupal": "~7.0"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-2.10",
+                    "datestamp": "1491562115",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "David Goode",
+                    "homepage": "https://www.drupal.org/user/291318"
+                },
+                {
+                    "name": "KarenS",
+                    "homepage": "https://www.drupal.org/user/45874"
+                },
+                {
+                    "name": "arlinsandbulte",
+                    "homepage": "https://www.drupal.org/user/242659"
+                },
+                {
+                    "name": "developer-x",
+                    "homepage": "https://www.drupal.org/user/399625"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "gisle",
+                    "homepage": "https://www.drupal.org/user/409554"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "sanchiz",
+                    "homepage": "https://www.drupal.org/user/1671246"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                },
+                {
+                    "name": "webchick",
+                    "homepage": "https://www.drupal.org/user/24967"
+                }
+            ],
+            "description": "A Date API that can be used by other modules.",
+            "homepage": "https://www.drupal.org/project/date",
+            "support": {
+                "source": "https://git.drupalcode.org/project/date"
+            }
+        },
+        {
+            "name": "drupal/date_views",
+            "version": "2.10.0",
+            "require": {
+                "drupal/date": "self.version",
+                "drupal/date_api": "*",
+                "drupal/drupal": "~7.0",
+                "drupal/views": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-2.10",
+                    "datestamp": "1491562115",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "David Goode",
+                    "homepage": "https://www.drupal.org/user/291318"
+                },
+                {
+                    "name": "KarenS",
+                    "homepage": "https://www.drupal.org/user/45874"
+                },
+                {
+                    "name": "arlinsandbulte",
+                    "homepage": "https://www.drupal.org/user/242659"
+                },
+                {
+                    "name": "developer-x",
+                    "homepage": "https://www.drupal.org/user/399625"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "gisle",
+                    "homepage": "https://www.drupal.org/user/409554"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "sanchiz",
+                    "homepage": "https://www.drupal.org/user/1671246"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                },
+                {
+                    "name": "webchick",
+                    "homepage": "https://www.drupal.org/user/24967"
+                }
+            ],
+            "description": "Views integration for date fields and date functionality.",
+            "homepage": "https://www.drupal.org/project/date",
+            "support": {
+                "source": "https://git.drupalcode.org/project/date"
             }
         },
         {
@@ -2476,7 +3014,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/always_visible": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
