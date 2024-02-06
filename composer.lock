@@ -979,23 +979,23 @@
         },
         {
             "name": "drupal/drupal",
-            "version": "7.73.0",
+            "version": "7.99.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/drupal.git",
-                "reference": "7.73"
+                "reference": "7.99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/drupal-7.73.zip",
-                "reference": "7.73",
-                "shasum": "253212fb23a2d23daa3292a1d64ac9e44cfe207c"
+                "url": "https://ftp.drupal.org/files/projects/drupal-7.99.zip",
+                "reference": "7.99",
+                "shasum": "3c0e44967c1bc00eb26600d3d3d1980ed95c705f"
             },
             "type": "drupal-core",
             "extra": {
                 "drupal": {
-                    "version": "7.73",
-                    "datestamp": "1600297114",
+                    "version": "7.99",
+                    "datestamp": "1701873806",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1008,12 +1008,32 @@
             ],
             "authors": [
                 {
+                    "name": "alexpott",
+                    "homepage": "https://www.drupal.org/user/157725"
+                },
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "ckrina",
+                    "homepage": "https://www.drupal.org/user/1206650"
+                },
+                {
                     "name": "Dries",
                     "homepage": "https://www.drupal.org/user/1"
                 },
                 {
                     "name": "Drupal",
                     "homepage": "https://www.drupal.org/user/3"
+                },
+                {
+                    "name": "effulgentsia",
+                    "homepage": "https://www.drupal.org/user/78040"
                 },
                 {
                     "name": "Fabianx",
@@ -1024,24 +1044,8 @@
                     "homepage": "https://www.drupal.org/user/4166"
                 },
                 {
-                    "name": "alexpott",
-                    "homepage": "https://www.drupal.org/user/157725"
-                },
-                {
-                    "name": "catch",
-                    "homepage": "https://www.drupal.org/user/35733"
-                },
-                {
-                    "name": "cilefen",
-                    "homepage": "https://www.drupal.org/user/1850070"
-                },
-                {
-                    "name": "drumm",
-                    "homepage": "https://www.drupal.org/user/3064"
-                },
-                {
-                    "name": "effulgentsia",
-                    "homepage": "https://www.drupal.org/user/78040"
+                    "name": "justafish",
+                    "homepage": "https://www.drupal.org/user/161058"
                 },
                 {
                     "name": "larowlan",
@@ -1052,16 +1056,24 @@
                     "homepage": "https://www.drupal.org/user/1078742"
                 },
                 {
+                    "name": "longwave",
+                    "homepage": "https://www.drupal.org/user/246492"
+                },
+                {
                     "name": "mcdruid",
                     "homepage": "https://www.drupal.org/user/255969"
                 },
                 {
-                    "name": "plach",
-                    "homepage": "https://www.drupal.org/user/183211"
+                    "name": "nod_",
+                    "homepage": "https://www.drupal.org/user/598310"
                 },
                 {
-                    "name": "webchick",
-                    "homepage": "https://www.drupal.org/user/24967"
+                    "name": "poker10",
+                    "homepage": "https://www.drupal.org/user/272316"
+                },
+                {
+                    "name": "quietone",
+                    "homepage": "https://www.drupal.org/user/2572884"
                 },
                 {
                     "name": "xjm",
@@ -3262,5 +3274,6 @@
         "ext-pdo": "*",
         "ext-xml": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
